@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阮范竹桃 - 個人履歷</title>
+    <style>
+        body{
+            background-color: #d5d5d5;
+            font-family: system-ui;
+        }
+        .container{
+            background-color: #E9E7EA;
+            width: 1000px;
+            max-width: 100%;
+            margin:auto;
+            padding:50px;
+            box-shadow: 0 10px 50px #858585;
+            display: grid;
+            grid-template-columns: 35% 60%;
+            column-gap: 5%;
+            row-gap: 30px;
+        }
+        .avatar img{
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .avatar{
+            display: flex;
+            justify-content: end;
+        }
+        .name{
+            padding-left: 30px;
+            border-left: 1px solid #000;
+        }
+        .name h1{
+            font-weight: 300;
+            font-size: xxx-large;
+            margin: 0 0 5px;
+        }
+        .name .specialize{
+            margin:0;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .name .contact{
+            padding:0;
+            list-style: none;
+        }
+        .name .contact span{
+            display: inline-block;
+            background-color: #000;
+            color: #fff;
+            width:20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: small;
+            margin-right: 20px;
+        }
+        .name .contact li{
+            padding: 5px 0;
+            transform: translate(-40px);
+            background-color: #E9E7EA;
+        }
+        .info ul{
+            padding: 0;
+            margin:0;
+            list-style: none;
+            text-align: right;
+            line-height: 30px;
+        }
+        .intro{
+            padding-left: 30px;
+            border-left: 1px solid #000;
+            text-align: justify;
+        }
+        h2{
+            padding:0;
+            margin:0 0 20px;
+        }
+        .exp{
+            text-align: right;
+        }
+        .language{
+            margin-top: 50px;
+        }
+        .exp ul{ 
+            padding:0;
+            margin:0;
+            list-style: none;
+            line-height: 35px;
+        }
+        .project{
+            padding-left: 30px;
+            text-align: justify;
+            border-left: 1px solid #000;
+        }
+        h2{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">
+            <img src="avatar.PNG" alt="個人照片">
+        </div>
+        <div class="name">
+            <h1>阮范竹桃</h1>
+            <div class="specialize">
+                ASIA STUDENT
+            </div>
+            <ul class="contact">
+                <li><span>N</span>學號: 113011140</li>
+                <li><span>E</span> nguyentrucdao0311@gmail.com</li>
+                <li><span>A</span> 台中市，台灣</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <ul>
+                <li>VietNam</li>
+                <li>03/11/2004</li>
+                <li>亞洲大學 - Asia University</li>
+            </ul>
+        </div>
+
+        <div class="intro">
+            <h2>個人簡介</h2>
+            我叫阮范竹桃，21歲，亞洲大學健康產業管理系一年級學生。對健康管理與相關產業充滿熱情，積極學習專業知識並提升實務能力。
+        </div>
+
+        <div class="exp">
+            <h2>技能</h2>
+            <ul>
+                <li>- 基礎文書處理</li>
+                <li>- HTML / CSS / JavaScript</li>
+                <li>- 西點 / 基礎烹飪</li>
+                <li>- 團隊合作</li>
+            </ul>
+
+            <h2 class="language">語言</h2>
+            <ul>
+                <li>中文</li>
+                <li>英文</li>
+                <li>越文</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h2>實作 / 專案</h2>
+            <div class="des">
+                在學期間參與健康促進、長照服務與健康產業分析等相關專案，負責資料蒐集、問卷設計與報告撰寫，培養團隊合作、邏輯思考與問題解決能力。透過實作課程，學習將理論應用於實際情境，提升健康管理與服務設計的專業技能。
+            </div>
+
+            <h2>工作經驗</h2>
+            <div class="des">
+                曾參與校內活動與系上研習營的籌備與行政支援工作，負責活動流程規劃、資料整理及現場協調，培養溝通與組織能力。透過兼職與服務學習，增進與不同族群互動的經驗，強化服務態度與責任感。
+            </div>
+
+            <h2>職涯目標</h2>
+            <div class="des">
+                希望未來能在健康管理與健康產業相關領域發展，結合專業知識與實務經驗，推動健康促進與產業創新。長期目標是成為具備專業分析能力與實務操作經驗的健康管理人才，為社會健康與福祉貢獻力量。
+            </div>
+        </div>
+    </div>
+</body>
+</html>
